@@ -1,0 +1,13 @@
+[
+    {
+      "relation": ["delegate_permission/common.handle_all_urls"],
+      "target": {
+        "namespace": "android_app",
+        "package_name": "com.instaprotek.app",
+        "sha256_cert_fingerprints": [
+          "64:E2:94:A8:CA:6F:AD:CD:4D:15:18:08:D6:C3:75:15:46:38:E1:E8:A5:BB:C1:55:36:EB:87:15:06:B8:2E:29",
+          "5A:4A:B0:F4:6B:EA:CE:2E:79:7F:26:0C:AC:96:8A:A9:27:91:D8:9E:A8:0E:B5:7B:54:3F:9F:98:CF:DD:3C:91"
+        ]
+      }
+    }
+  ]

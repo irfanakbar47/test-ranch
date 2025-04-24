@@ -1,0 +1,43 @@
+{
+  "name": "instaprotek-website",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "cross-env NODE_ENV=development next dev --turbo",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "recreate": "next build && next start"
+  },
+  "dependencies": {
+    "@mantine/hooks": "^7.15.0",
+    "@next/third-parties": "^15.1.0",
+    "@sendgrid/mail": "^8.1.4",
+    "@tailwindcss/typography": "^0.5.15",
+    "axios": "^1.7.9",
+    "geoip-lite": "^1.4.10",
+    "moment-timezone": "^0.5.46",
+    "next": "^15.1.0",
+    "pdfjs-dist": "^4.9.155",
+    "react": "^19.0.0",
+    "react-cookie-consent": "^9.0.0",
+    "react-dom": "^19.0.0",
+    "react-fast-marquee": "^1.6.5",
+    "react-icons": "^5.4.0",
+    "react-pdf": "^9.1.1",
+    "sharp": "^0.33.5",
+    "winston": "^3.17.0",
+    "winston-daily-rotate-file": "^5.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^22.10.2",
+    "@types/react": "^19.0.1",
+    "@types/react-dom": "^19.0.2",
+    "cross-env": "^7.0.3",
+    "eslint": "^9.16.0",
+    "eslint-config-next": "^15.1.0",
+    "postcss": "^8.4.49",
+    "tailwindcss": "^3.4.16",
+    "typescript": "^5.7.2"
+  }
+}
