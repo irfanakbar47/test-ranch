@@ -25,8 +25,8 @@ spec:
               value: development
           resources:
             requests:
-              memory: "128Mi"
+              memory: "512Mi"
               cpu: "250m"
             limits:
-              memory: "256Mi"
-              cpu: "500m"
+              memory: "512Mi"
+              cpu: "800m"
