@@ -1,0 +1,6 @@
+namespace: default
+targets:
+  - name: local-env
+    clusterSelector:
+      matchLabels:
+        env: local
