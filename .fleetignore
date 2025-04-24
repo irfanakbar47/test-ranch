@@ -1,0 +1,6 @@
+*.tgz
+*.zip
+charts/
+test/
+large-secrets/
+docs/
