@@ -1,4 +1,4 @@
-namespace: default
+namespace: instaprotek
 targets:
   - name: local-env
     clusterSelector:
