@@ -17,7 +17,7 @@ spec:
     spec:
       containers:
         - name: instaprotek-container
-          image: irfan611/instaprotek:latest  # <-- Replace with your actual image tag if needed
+          image: irfan611/my-image-name:1745519265  # <-- Replace with your actual image tag if needed
           ports:
             - containerPort: 3000
           env:
