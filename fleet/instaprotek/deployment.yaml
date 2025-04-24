@@ -1,22 +1,23 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: node-app
+  name: instaprotek-app
+  namespace: instaprotek
   labels:
-    app: node-app
+    app: instaprotek-app
 spec:
   replicas: 2
   selector:
     matchLabels:
-      app: node-app
+      app: instaprotek-app
   template:
     metadata:
       labels:
-        app: node-app
+        app: instaprotek-app
     spec:
       containers:
-        - name: node-container
-          image: your-dockerhub-user/your-app:latest
+        - name: instaprotek-container
+          image: irfan611/instaprotek:latest  # <-- Replace with your actual image tag if needed
           ports:
             - containerPort: 3000
           env:

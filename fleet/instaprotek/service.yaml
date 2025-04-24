@@ -1,12 +1,15 @@
 apiVersion: v1
 kind: Service
 metadata:
-  name: node-app-service
+  name: instaprotek-service
+  namespace: instaprotek
+  labels:
+    app: instaprotek-app
 spec:
   selector:
-    app: node-app
+    app: instaprotek-app
   ports:
     - protocol: TCP
       port: 80
       targetPort: 3000
-  type: NodePort
+  type: ClusterIP
